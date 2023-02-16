@@ -23,6 +23,8 @@ body {
 }
 
 #stats {
+  display: flex;
+  justify-content: space-between;
   border: 1px black solid;
   color: black;
   padding: 5px;
@@ -38,4 +40,34 @@ body {
 
 .stat {
   padding-right: 10px;
+}
+
+.language {
+  /* display: none; */
+}
+
+.EN,
+.FR {
+  text-decoration: none;
+  color: rgb(127, 127, 127);
+}
+
+.EN:hover,
+.FR:hover {
+  color: darkblue;
+}
+
+.EN:active,
+.FR:active {
+  color: red;
+}
+
+.EN:visited,
+.FR:visited {
+  color: darkblue;
+}
+
+.healthText {
+  padding: 0;
+  margin: 0;
 }
